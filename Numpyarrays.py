@@ -22,3 +22,8 @@ print(a.ndim)
 print(b.ndim)
 print(c.ndim)
 print(d.ndim)
+
+
+arr_nd = np.array([1,2,3,4], ndmin =5)
+print(arr_nd)
+print("Number of dimensional array: ", arr_nd.ndim)
